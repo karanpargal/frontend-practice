@@ -11,7 +11,7 @@
     width: 632.7px;
     height: 123px;  
     left: 158px;
-    margin-top: 180px;
+    top: 180px;
     font-family: 'Roboto', sans-serif;
     /* font-style: italic; */
     font-weight: 600;
@@ -24,7 +24,7 @@
     width: 273.4px;
     height: 64px;
     left: 990px;
-    margin-top: 52px;
+    top: 52px;
     background: #A66000;
     border: #A66000;
     font-family: 'Roboto',sans-serif;
@@ -82,7 +82,7 @@
 .content{
     position: absolute;
     width: 601.92px;
-    height: 132px;
+    height: 82px;
     left: 158px;
     top: 479px;
 
@@ -149,4 +149,11 @@
     line-height: 35px;
     color: #FFE8C8; 
     border-radius: 10px;
+}
+
+button:hover{
+    color: #FFF;
+    transform: scale(1.25);
+    transition: ease-in;
+    transition-duration: 200ms;
 }
